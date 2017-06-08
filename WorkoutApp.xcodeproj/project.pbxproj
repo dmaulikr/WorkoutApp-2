@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25234AF31EE95CE200499D95 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25234AF21EE95CE200499D95 /* LoginViewController.swift */; };
+		25234AF51EE96F5B00499D95 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25234AF41EE96F5B00499D95 /* RegisterViewController.swift */; };
+		25234AF71EE9703800499D95 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25234AF61EE9703800499D95 /* ProfileViewController.swift */; };
 		25E7E16F1EE6EAEE0099F594 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E7E16E1EE6EAEE0099F594 /* AppDelegate.swift */; };
 		25E7E1711EE6EAEE0099F594 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E7E1701EE6EAEE0099F594 /* FirstViewController.swift */; };
 		25E7E1731EE6EAEE0099F594 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E7E1721EE6EAEE0099F594 /* SecondViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25234AF21EE95CE200499D95 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		25234AF41EE96F5B00499D95 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		25234AF61EE9703800499D95 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		25E7E16B1EE6EAEE0099F594 /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25E7E16E1EE6EAEE0099F594 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25E7E1701EE6EAEE0099F594 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +72,9 @@
 				25E7E1791EE6EAEE0099F594 /* LaunchScreen.storyboard */,
 				25E7E17C1EE6EAEE0099F594 /* Info.plist */,
 				25E7E1841EE70D6F0099F594 /* Programs.storyboard */,
+				25234AF21EE95CE200499D95 /* LoginViewController.swift */,
+				25234AF41EE96F5B00499D95 /* RegisterViewController.swift */,
+				25234AF61EE9703800499D95 /* ProfileViewController.swift */,
 			);
 			path = WorkoutApp;
 			sourceTree = "<group>";
@@ -143,6 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25234AF71EE9703800499D95 /* ProfileViewController.swift in Sources */,
+				25234AF31EE95CE200499D95 /* LoginViewController.swift in Sources */,
+				25234AF51EE96F5B00499D95 /* RegisterViewController.swift in Sources */,
 				25E7E1731EE6EAEE0099F594 /* SecondViewController.swift in Sources */,
 				25E7E16F1EE6EAEE0099F594 /* AppDelegate.swift in Sources */,
 				25E7E1711EE6EAEE0099F594 /* FirstViewController.swift in Sources */,
@@ -309,6 +321,7 @@
 				25E7E1811EE6EAEE0099F594 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
