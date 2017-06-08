@@ -318,10 +318,10 @@
             </objects>
             <point key="canvasLocation" x="471.19999999999999" y="889.20539730134942"/>
         </scene>
-        <!--RegistratinForm-->
+        <!--View Controller-->
         <scene sceneID="ZUG-7X-b1Z">
             <objects>
-                <viewController title="RegistratinForm" id="WZK-4c-4Mc" sceneMemberID="viewController">
+                <viewController id="WZK-4c-4Mc" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NDc-jw-Apl"/>
                         <viewControllerLayoutGuide type="bottom" id="hFC-ve-weX"/>
@@ -450,35 +450,15 @@
             </objects>
             <point key="canvasLocation" x="1494" y="889"/>
         </scene>
-        <!--Profile-->
-        <scene sceneID="4vn-WC-hcx">
+        <!--ProfileNavigationViewController-->
+        <scene sceneID="vHz-Xb-a40">
             <objects>
-                <viewController title="Profile" id="HwL-Xu-M1V" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="LvC-UW-KjK"/>
-                        <viewControllerLayoutGuide type="bottom" id="IVH-fk-X5a"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="vkc-FN-Oc8">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Profile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZH-wV-i2q">
-                                <rect key="frame" x="16" y="84" width="345" height="170"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Profile" image="second" id="Mwy-cN-jLX">
-                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
-                    </tabBarItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="c9c-nJ-M7L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="ProfileNavigationViewController" id="ZzD-Yo-Xzz" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="J0s-Oo-iHY"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ce1-So-3y2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="480.80000000000001" y="215.44227886056973"/>
+            <point key="canvasLocation" x="1036" y="15"/>
         </scene>
         <!--Barcode-->
         <scene sceneID="oXK-Qx-btB">
@@ -500,7 +480,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scan Me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="44h-1K-0Az">
-                                <rect key="frame" x="0.0" y="44" width="375" height="130"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="174"/>
                                 <color key="backgroundColor" red="0.1764705882352941" green="0.1764705882352941" blue="0.1764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="33"/>
                                 <color key="textColor" red="0.98431372549999996" green="0.81568627449999997" blue="0.32156862749999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -559,7 +539,7 @@
         <!--Card-->
         <scene sceneID="l7f-HK-U8r">
             <objects>
-                <viewController title="Card" id="kT1-cI-X1r" customClass="CardViewController" customModule="WorkoutApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CardViewController" title="Card" id="kT1-cI-X1r" customClass="CardViewController" customModule="WorkoutApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yLs-NS-Lcp"/>
                         <viewControllerLayoutGuide type="bottom" id="wjs-FY-tNV"/>
@@ -735,7 +715,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="fG8-ym-TCd">
             <objects>
-                <tabBarController id="zxG-r2-YK0" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabBarViewController" id="zxG-r2-YK0" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" barStyle="black" itemPositioning="fill" id="bBx-2P-5nn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -744,8 +724,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="UKb-ae-wvi" kind="relationship" relationship="viewControllers" id="6ZG-AN-Wm5"/>
-                        <segue destination="HwL-Xu-M1V" kind="relationship" relationship="viewControllers" id="jqA-EQ-9W7"/>
                         <segue destination="wcH-W2-wbq" kind="relationship" relationship="viewControllers" id="FCZ-Au-Iru"/>
+                        <segue destination="ZzD-Yo-Xzz" kind="relationship" relationship="viewControllers" id="uJH-dl-VvB"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZxA-cA-Uat" userLabel="First Responder" sceneMemberID="firstResponder"/>

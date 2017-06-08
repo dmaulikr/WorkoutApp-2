@@ -19,8 +19,8 @@
 		E385168A1EE83BBC00868640 /* ProgramsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38516891EE83BBC00868640 /* ProgramsTableViewController.swift */; };
 		E385168C1EE8504600868640 /* programs yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = E385168B1EE8504600868640 /* programs yellow.png */; };
 		E385168E1EE8C8D800868640 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385168D1EE8C8D800868640 /* CardViewController.swift */; };
-		E38516901EE8CAAA00868640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E385168F1EE8CAAA00868640 /* Assets.xcassets */; };
 		E38516921EE99D6F00868640 /* BarcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38516911EE99D6F00868640 /* BarcodeViewController.swift */; };
+		E3D71B5B1EEA11F800F53C04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3D71B5A1EEA11F800F53C04 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,8 +38,8 @@
 		E38516891EE83BBC00868640 /* ProgramsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgramsTableViewController.swift; path = ../ProgramsTableViewController.swift; sourceTree = "<group>"; };
 		E385168B1EE8504600868640 /* programs yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "programs yellow.png"; path = "../../../../../var/folders/8v/tc_52rt12hn1jblsv6047w1h0000gn/T/com.apple.iChat/Messages/Transfers/programs yellow.png"; sourceTree = "<group>"; };
 		E385168D1EE8C8D800868640 /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
-		E385168F1EE8CAAA00868640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		E38516911EE99D6F00868640 /* BarcodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeViewController.swift; sourceTree = "<group>"; };
+		E3D71B5A1EEA11F800F53C04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,13 +73,13 @@
 		25E7E16D1EE6EAEE0099F594 /* WorkoutApp */ = {
 			isa = PBXGroup;
 			children = (
+				E3D71B5A1EEA11F800F53C04 /* Assets.xcassets */,
+				E385168B1EE8504600868640 /* programs yellow.png */,
 				E38516891EE83BBC00868640 /* ProgramsTableViewController.swift */,
 				25E7E16E1EE6EAEE0099F594 /* AppDelegate.swift */,
 				25E7E1701EE6EAEE0099F594 /* FirstViewController.swift */,
 				25E7E1721EE6EAEE0099F594 /* SecondViewController.swift */,
 				25E7E1741EE6EAEE0099F594 /* Main.storyboard */,
-				E385168F1EE8CAAA00868640 /* Assets.xcassets */,
-				E385168B1EE8504600868640 /* programs yellow.png */,
 				25E7E1791EE6EAEE0099F594 /* LaunchScreen.storyboard */,
 				25E7E17C1EE6EAEE0099F594 /* Info.plist */,
 				25E7E1841EE70D6F0099F594 /* Programs.storyboard */,
@@ -153,8 +153,8 @@
 				25E7E17B1EE6EAEE0099F594 /* LaunchScreen.storyboard in Resources */,
 				25E7E1851EE70D6F0099F594 /* Programs.storyboard in Resources */,
 				E385168C1EE8504600868640 /* programs yellow.png in Resources */,
+				E3D71B5B1EEA11F800F53C04 /* Assets.xcassets in Resources */,
 				25E7E1761EE6EAEE0099F594 /* Main.storyboard in Resources */,
-				E38516901EE8CAAA00868640 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
