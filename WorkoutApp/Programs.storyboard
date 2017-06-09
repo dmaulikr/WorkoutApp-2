@@ -419,7 +419,7 @@
                                     <color key="titleColor" red="0.98431372549999996" green="0.81568627449999997" blue="0.32156862749999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="lOl-8S-nlO" kind="show" id="C9K-EQ-EQe"/>
+                                    <segue destination="zxG-r2-YK0" kind="show" id="jd4-L9-nBA"/>
                                 </connections>
                             </button>
                         </subviews>
