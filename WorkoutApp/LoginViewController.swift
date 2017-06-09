@@ -18,7 +18,7 @@ class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.inputEmail.becomeFirstResponder()
+//        self.inputEmail.becomeFirstResponder()
         // Do any additional setup after loading the view.
     }
 
