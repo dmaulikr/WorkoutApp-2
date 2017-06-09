@@ -17,7 +17,6 @@
 		25E7E17B1EE6EAEE0099F594 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E7E1791EE6EAEE0099F594 /* LaunchScreen.storyboard */; };
 		25E7E1851EE70D6F0099F594 /* Programs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E7E1841EE70D6F0099F594 /* Programs.storyboard */; };
 		E385168A1EE83BBC00868640 /* ProgramsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38516891EE83BBC00868640 /* ProgramsTableViewController.swift */; };
-		E385168C1EE8504600868640 /* programs yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = E385168B1EE8504600868640 /* programs yellow.png */; };
 		E385168E1EE8C8D800868640 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385168D1EE8C8D800868640 /* CardViewController.swift */; };
 		E38516921EE99D6F00868640 /* BarcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38516911EE99D6F00868640 /* BarcodeViewController.swift */; };
 		E3D71B5B1EEA11F800F53C04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3D71B5A1EEA11F800F53C04 /* Assets.xcassets */; };
@@ -36,7 +35,6 @@
 		25E7E17C1EE6EAEE0099F594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25E7E1841EE70D6F0099F594 /* Programs.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Programs.storyboard; sourceTree = "<group>"; };
 		E38516891EE83BBC00868640 /* ProgramsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgramsTableViewController.swift; path = ../ProgramsTableViewController.swift; sourceTree = "<group>"; };
-		E385168B1EE8504600868640 /* programs yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "programs yellow.png"; path = "../../../../../var/folders/8v/tc_52rt12hn1jblsv6047w1h0000gn/T/com.apple.iChat/Messages/Transfers/programs yellow.png"; sourceTree = "<group>"; };
 		E385168D1EE8C8D800868640 /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardViewController.swift; path = ../CardViewController.swift; sourceTree = "<group>"; };
 		E38516911EE99D6F00868640 /* BarcodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeViewController.swift; sourceTree = "<group>"; };
 		E3D71B5A1EEA11F800F53C04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,22 +71,29 @@
 			isa = PBXGroup;
 			children = (
 				E3D71B5A1EEA11F800F53C04 /* Assets.xcassets */,
-				E385168D1EE8C8D800868640 /* CardViewController.swift */,
-				E385168B1EE8504600868640 /* programs yellow.png */,
-				E38516891EE83BBC00868640 /* ProgramsTableViewController.swift */,
-				25E7E16E1EE6EAEE0099F594 /* AppDelegate.swift */,
-				25E7E1701EE6EAEE0099F594 /* FirstViewController.swift */,
-				25E7E1721EE6EAEE0099F594 /* SecondViewController.swift */,
+				E3D71B5E1EEA244600F53C04 /* Controllers */,
 				25E7E1741EE6EAEE0099F594 /* Main.storyboard */,
 				25E7E1791EE6EAEE0099F594 /* LaunchScreen.storyboard */,
 				25E7E17C1EE6EAEE0099F594 /* Info.plist */,
 				25E7E1841EE70D6F0099F594 /* Programs.storyboard */,
+			);
+			path = WorkoutApp;
+			sourceTree = "<group>";
+		};
+		E3D71B5E1EEA244600F53C04 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E385168D1EE8C8D800868640 /* CardViewController.swift */,
+				E38516891EE83BBC00868640 /* ProgramsTableViewController.swift */,
+				25E7E16E1EE6EAEE0099F594 /* AppDelegate.swift */,
+				25E7E1701EE6EAEE0099F594 /* FirstViewController.swift */,
+				25E7E1721EE6EAEE0099F594 /* SecondViewController.swift */,
 				25234AF21EE95CE200499D95 /* LoginViewController.swift */,
 				25234AF41EE96F5B00499D95 /* RegisterViewController.swift */,
 				25234AF61EE9703800499D95 /* ProfileViewController.swift */,
 				E38516911EE99D6F00868640 /* BarcodeViewController.swift */,
 			);
-			path = WorkoutApp;
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +157,6 @@
 			files = (
 				25E7E17B1EE6EAEE0099F594 /* LaunchScreen.storyboard in Resources */,
 				25E7E1851EE70D6F0099F594 /* Programs.storyboard in Resources */,
-				E385168C1EE8504600868640 /* programs yellow.png in Resources */,
 				E3D71B5B1EEA11F800F53C04 /* Assets.xcassets in Resources */,
 				25E7E1761EE6EAEE0099F594 /* Main.storyboard in Resources */,
 			);
