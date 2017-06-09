@@ -23,7 +23,7 @@ class ProfileViewController: UIViewController ,UIImagePickerControllerDelegate ,
         imagePicker.delegate = self
         myProgramBtn.layer.cornerRadius = 7
         myProgramBtn.clipsToBounds = true
-        
+        self.hideKeyboardWhenTappedAround() 
         // Do any additional setup after loading the view.
     }
 

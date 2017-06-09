@@ -17,7 +17,7 @@ class BarcodeViewController: UIViewController {
         super.viewDidLoad()
         let image = generateBarcode(from: "NesreenM")
         BarcodeImageView.image = image
-
+        self.hideKeyboardWhenTappedAround()
        
 
         // Do any additional setup after loading the view.
@@ -49,16 +49,6 @@ class BarcodeViewController: UIViewController {
         
         return nil
     }
-   
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

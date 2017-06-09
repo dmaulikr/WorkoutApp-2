@@ -16,7 +16,7 @@ class RegisterViewController: UIViewController {
 //    @IBOutlet var scrollView: UIScrollView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.hideKeyboardWhenTappedAround() 
         healthTextView.layer.cornerRadius = 5
         commentsTextView.layer.cornerRadius = 5
         healthTextView.clipsToBounds = true

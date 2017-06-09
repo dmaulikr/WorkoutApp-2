@@ -14,6 +14,7 @@ class CardViewController: UIViewController {
     @IBOutlet var cardStackView: UIStackView!
     override func viewDidLoad() {
         super.viewDidLoad()
+         self.hideKeyboardWhenTappedAround() 
         cardStackView.layer.borderWidth = 5
 //        image1.layer.borderWidth = 2
         for tickImage in tickImages {
