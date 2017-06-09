@@ -531,36 +531,6 @@
             </objects>
             <point key="canvasLocation" x="841" y="1082"/>
         </scene>
-        <!--Blog-->
-        <scene sceneID="L6j-n0-fnW">
-            <objects>
-                <viewController title="Blog" id="UKb-ae-wvi" customClass="FirstViewController" customModule="WorkoutApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="99s-JL-RF3"/>
-                        <viewControllerLayoutGuide type="bottom" id="R1D-EE-RzZ"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="324-kf-Crb">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BLOG" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="39g-MG-Zzo">
-                                <rect key="frame" x="52" y="128" width="278" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Blog" image="second" id="Kvm-FV-gIM">
-                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
-                    </tabBarItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BTz-2q-ckB" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-33" y="-60"/>
-        </scene>
         <!--Card-->
         <scene sceneID="l7f-HK-U8r">
             <objects>
@@ -748,7 +718,6 @@
                         <color key="barTintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="UKb-ae-wvi" kind="relationship" relationship="viewControllers" id="6ZG-AN-Wm5"/>
                         <segue destination="wcH-W2-wbq" kind="relationship" relationship="viewControllers" id="FCZ-Au-Iru"/>
                         <segue destination="ZzD-Yo-Xzz" kind="relationship" relationship="viewControllers" id="uJH-dl-VvB"/>
                     </connections>
