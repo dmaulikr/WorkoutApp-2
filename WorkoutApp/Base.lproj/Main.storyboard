@@ -385,6 +385,17 @@
                                     <constraint firstAttribute="height" constant="210" id="jlc-gn-S4v"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5NS-oF-l5a">
+                                <rect key="frame" x="325" y="346" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.98431372549999996" green="0.81568627449999997" blue="0.32156862749999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="addProfileImage:" destination="3oT-kq-Hf7" eventType="touchUpInside" id="XEg-dG-6cu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.1764705882" green="0.1764705882" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -423,6 +434,7 @@
                         <outlet property="ageLabel" destination="GzT-Vq-OCu" id="Sno-l5-9Nc"/>
                         <outlet property="heightLabel" destination="qKe-Yj-Ldk" id="PMH-C7-QLu"/>
                         <outlet property="myProgramBtn" destination="bYE-K6-ZK0" id="ItG-OT-5fQ"/>
+                        <outlet property="profileImage" destination="60Z-QP-EK2" id="RjP-j0-L7m"/>
                         <outlet property="weightLabel" destination="r6T-WC-hN4" id="jyA-zf-4H4"/>
                     </connections>
                 </viewController>
@@ -688,7 +700,7 @@
                 <navigationController storyboardIdentifier="ProfileNavigationViewController" automaticallyAdjustsScrollViewInsets="NO" id="Tsk-JR-ShZ" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Profile" image="second" id="vmG-hZ-NcC"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="4lY-wd-4Ma">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4lY-wd-4Ma">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.98431372549999996" green="0.81568627449999997" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
