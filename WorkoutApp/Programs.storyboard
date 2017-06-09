@@ -747,7 +747,7 @@
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     </tabBarItem>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="i0d-SV-ZRd">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="i0d-SV-ZRd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.98431372549999996" green="0.81568627449999997" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
