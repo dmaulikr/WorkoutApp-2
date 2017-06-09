@@ -19,6 +19,9 @@ class ProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        myProgramBtn.layer.cornerRadius = 7
+        myProgramBtn.clipsToBounds = true
+        
         // Do any additional setup after loading the view.
     }
 
