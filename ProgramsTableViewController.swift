@@ -39,6 +39,12 @@ class ProgramsTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
-
+    override func motionBegan(_ motion: UIEventSubtype, with event: UIEvent?) {
+        print("Device was shaken!")
+        
+        let storyBoard : UIStoryboard = UIStoryboard(name:"Programs", bundle:nil)
+        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "BarcodeViewController") as! BarcodeViewController
+        self.present(nextViewController, animated:true, completion:nil)
+    }
 
 }

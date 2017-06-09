@@ -25,7 +25,6 @@ class FirstViewController: UIViewController {
         print("Device was shaken!")
        
         let storyBoard : UIStoryboard = UIStoryboard(name:"Programs", bundle:nil)
-        // test change to bar code genrator 
         let nextViewController = storyBoard.instantiateViewController(withIdentifier: "BarcodeViewController") as! BarcodeViewController
         self.present(nextViewController, animated:true, completion:nil)
     }

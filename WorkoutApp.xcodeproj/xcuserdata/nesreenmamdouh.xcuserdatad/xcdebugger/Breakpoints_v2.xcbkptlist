@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WorkoutApp/FirstViewController.swift"
-            timestampString = "518632632.07963"
+            timestampString = "518660146.264032"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "motionBegan(_:with:)"
             landmarkType = "7">
          </BreakpointContent>

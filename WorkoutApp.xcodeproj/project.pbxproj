@@ -37,7 +37,7 @@
 		25E7E1841EE70D6F0099F594 /* Programs.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Programs.storyboard; sourceTree = "<group>"; };
 		E38516891EE83BBC00868640 /* ProgramsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgramsTableViewController.swift; path = ../ProgramsTableViewController.swift; sourceTree = "<group>"; };
 		E385168B1EE8504600868640 /* programs yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "programs yellow.png"; path = "../../../../../var/folders/8v/tc_52rt12hn1jblsv6047w1h0000gn/T/com.apple.iChat/Messages/Transfers/programs yellow.png"; sourceTree = "<group>"; };
-		E385168D1EE8C8D800868640 /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		E385168D1EE8C8D800868640 /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardViewController.swift; path = ../CardViewController.swift; sourceTree = "<group>"; };
 		E38516911EE99D6F00868640 /* BarcodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeViewController.swift; sourceTree = "<group>"; };
 		E3D71B5A1EEA11F800F53C04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,7 +56,6 @@
 		25E7E1621EE6EAEE0099F594 = {
 			isa = PBXGroup;
 			children = (
-				E385168D1EE8C8D800868640 /* CardViewController.swift */,
 				25E7E16D1EE6EAEE0099F594 /* WorkoutApp */,
 				25E7E16C1EE6EAEE0099F594 /* Products */,
 			);
@@ -74,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				E3D71B5A1EEA11F800F53C04 /* Assets.xcassets */,
+				E385168D1EE8C8D800868640 /* CardViewController.swift */,
 				E385168B1EE8504600868640 /* programs yellow.png */,
 				E38516891EE83BBC00868640 /* ProgramsTableViewController.swift */,
 				25E7E16E1EE6EAEE0099F594 /* AppDelegate.swift */,
