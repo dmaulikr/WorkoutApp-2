@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="xug-uS-mZu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="xug-uS-mZu">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -416,13 +416,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Cep-3L-p6j">
-                        <barButtonItem key="leftBarButtonItem" title="Card" id="xEV-gx-cSB">
+                        <barButtonItem key="leftBarButtonItem" image="card simple" id="xEV-gx-cSB">
                             <color key="tintColor" red="0.98431372549999996" green="0.81568627449999997" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <segue destination="bj3-3u-vRW" kind="show" id="N66-wW-pWI"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="edit" id="g8X-mu-BbQ">
+                        <barButtonItem key="rightBarButtonItem" image="settings" id="g8X-mu-BbQ">
                             <color key="tintColor" red="0.98431372549999996" green="0.81568627449999997" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <segue destination="tj7-7V-dcR" kind="show" id="XWp-pf-rZY"/>
@@ -698,7 +698,7 @@
         <scene sceneID="Y4k-X0-8ZC">
             <objects>
                 <navigationController storyboardIdentifier="ProfileNavigationViewController" automaticallyAdjustsScrollViewInsets="NO" id="Tsk-JR-ShZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" image="second" id="vmG-hZ-NcC"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="icon_missing_full" id="vmG-hZ-NcC"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="4lY-wd-4Ma">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -720,11 +720,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="card simple" width="25" height="25"/>
         <image name="dumbbell-icon-yellow" width="480" height="480"/>
         <image name="food cal 2" width="247" height="161"/>
         <image name="grind yellow" width="388" height="156"/>
+        <image name="icon_missing_full" width="25" height="25"/>
         <image name="profile pic ios" width="822" height="462"/>
-        <image name="second" width="30" height="30"/>
+        <image name="settings" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="VVF-To-Obb"/>
